@@ -1,0 +1,79 @@
+p
+{
+
+    /*
+        don vi: px, em, rem, vh,...( moi don vi co cach dung khac nhau )
+    */
+    font-size: 25px;
+    
+}
+
+.p1, .p2
+{
+    /*
+        in đậm
+    */
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+.p2, .p3
+{
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+/*
+        Thuộc tính nào mang !important thì luôn luôn sd trước (đè lên thuộc tính đã có sẵn )  
+*/
+.p3
+{
+    color: yellow!important;
+}
+
+.divParent
+{
+    display: flex;
+    width: 100%; /* thường chia theo % */
+    border: 1px solid #000;
+}
+
+.divMain
+{
+    border: 1px solid #000;
+    height: auto;
+}
+
+.main1
+{ 
+    border: 1px solid red;
+}
+
+.backimg
+{
+    margin: 10px 0 0 0;
+    border: 1px solid #000;
+    height: 500px;
+    background: url(https://images.pexels.com/photos/556416/pexels-photo-556416.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body{
+    background: url(https://images.pexels.com/photos/257840/pexels-photo-257840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background: transparent; BG trong suot  */
+}
+/*
+common attribute :
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*/
